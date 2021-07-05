@@ -2,7 +2,7 @@
     height: 70vh;
     position: relative;
    background: url(https://cdn57.androidauthority.net/wp-content/uploads/2021/03/airbnb-example-home-1000x667.jpg);
-   background-size: cover;
+
 }
 .banner_info{
     background-color: black;
@@ -13,5 +13,23 @@
 .banner_info > Button{
     background-color: #ff7779;
     color: white;
-    
+    text-transform: inherit;
+}
+.banner_info>h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.banner_info>Button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_searchbuttton{
+    background-color:white !important;
+    font-weight: 900 !important ;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
 }
