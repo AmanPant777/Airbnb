@@ -1,0 +1,17 @@
+.banner{
+    height: 70vh;
+    position: relative;
+   background: url(https://cdn57.androidauthority.net/wp-content/uploads/2021/03/airbnb-example-home-1000x667.jpg);
+   background-size: cover;
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+}
+.banner_info > Button{
+    background-color: #ff7779;
+    color: white;
+    
+}

@@ -1,6 +1,9 @@
 import React from "react";
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import LanguageIcon from '@material-ui/icons/Language';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 const Header = () => {
   return (
     <div className="header">
@@ -12,8 +15,14 @@ const Header = () => {
         <input type='text'></input>
         <SearchIcon/>
       </div>
+      <div className='header-right'>
+        <p>Become a host</p>
+        <LanguageIcon/>
+        <ExpandMoreIcon/>
+        <AccountCircleIcon/>
+      </div>
     </div>
-  );
+  )
 };
 
 export default Header;
