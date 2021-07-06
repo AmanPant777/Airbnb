@@ -24,9 +24,20 @@ const Home = () => {
         price='30,000'/>
       </div>
       <div className="home_section">
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card
+        src='https://resources.sotc.in/images/holidays/PKG008004/Zuriwhitesands1.jpeg'
+        title='Goa Packages'
+        price='20,000Rs'/>
+        <Card
+        src="https://www.sotc.in/images/tour-package-banners/Andaman-Youth-Special.jpg"
+        title="Andaman Crazy Deal"
+        description
+        price='30,999Rs'/>
+         <Card
+        src='https://www.sotc.in/images/tour-package-banners/Rajasthan-Tourism.jpg'
+        title='Rajhastan Tour'
+        description=''
+        price='20,000Rs'/>
       </div>
     </div>
   );
