@@ -1,6 +1,7 @@
 import React from 'react'
 import './SearchPage.css'
 import {Button} from '@material-ui/core'
+import SearchResult from './SearchResult'
 const SearchPage = () => {
     return (
         <div className='searchPage'>
@@ -23,6 +24,24 @@ const SearchPage = () => {
                     More Filters
                 </Button>
             </div>
+            <SearchResult 
+            img='https://a0.muscache.com/im/pictures/23191485-b4aa-41ad-9011-516cb50215d6.jpg?im_w=320'
+            title='Munnar,Kerala'
+            location='Kerala'
+            description='Visit us to have a slow vacation. Spend your days lazing, watching the mist hovering over the mountains.'
+            star='1'
+            price='12,758'
+            total='12,758'
+            />
+             <SearchResult 
+            img='https://a0.muscache.com/im/pictures/23191485-b4aa-41ad-9011-516cb50215d6.jpg?im_w=320'
+            title='Munnar,Kerala'
+            location='Kerala'
+            description='Visit us to have a slow vacation. Spend your days lazing, watching the mist hovering over the mountains.'
+            star='1'
+            price='12,758'
+            total='12,758'
+            />
         </div>
     )
 }
