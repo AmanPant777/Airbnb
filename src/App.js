@@ -29,3 +29,4 @@ export default App;
 // Banners->Search
 //Bunch of card
 //Footer
+//Deploy=https://airbnb-clone-27e95.web.app/

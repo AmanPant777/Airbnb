@@ -1,18 +1,16 @@
 {
-    "hosting": {
-      "public": "./index.html",
-      "ignore": [
-        "firebase.json",
-        "database-rules.json",
-        "storage.rules",
-        "functions"
-      ],
-      "headers": [{
-        "source" : "**/*.@(js|html)",
-        "headers" : [ {
-          "key" : "Cache-Control",
-          "value" : "max-age=0"
-        } ]
-      }]
-    }
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
+}
